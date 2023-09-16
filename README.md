@@ -43,6 +43,21 @@ do {
 
 console.log(`Factorial of ${n} is ${factorial}`);
 ```
+### has own property 
+##### hasOwnProperty method is used to check if an object has a specific property.
+```
+const myObject = {
+  firstName: "Mohamed",
+  lastName: "Omran",
+  age: 21,
+};
+
+if (myObject.hasOwnProperty("firstName")) {
+  console.log("myObject has a property called 'firstName'");
+} else {
+  console.log("myObject does not have a property called 'firstName'");
+}
+```
 
 
 
